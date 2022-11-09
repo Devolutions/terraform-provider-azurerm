@@ -919,6 +919,13 @@ func TestAccAppServiceSlot_windowsDotNetUpdate(t *testing.T) {
 				check.That(data.ResourceName).Key("site_config.0.dotnet_framework_version").HasValue("v6.0"),
 			),
 		},
+		{
+			Config: r.windowsDotNet(data, "v7.0"),
+			Check: acceptance.ComposeTestCheckFunc(
+				check.That(data.ResourceName).ExistsInAzure(r),
+				check.That(data.ResourceName).Key("site_config.0.dotnet_framework_version").HasValue("v7.0"),
+			),
+		},
 	})
 }
 
