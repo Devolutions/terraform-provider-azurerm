@@ -24,8 +24,8 @@ require (
 	github.com/sergi/go-diff v1.2.0
 	github.com/shopspring/decimal v1.2.0
 	github.com/tombuildsstuff/giovanni v0.18.0
-	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
-	golang.org/x/net v0.1.0
+	golang.org/x/crypto v0.11.0
+	golang.org/x/net v0.12.0
 	gopkg.in/yaml.v2 v2.3.0
 )
 
@@ -70,8 +70,8 @@ require (
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/zclconf/go-cty v1.9.1 // indirect
 	golang.org/x/oauth2 v0.1.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20221025140454-527a21cfbd71 // indirect
 	google.golang.org/grpc v1.50.1 // indirect
